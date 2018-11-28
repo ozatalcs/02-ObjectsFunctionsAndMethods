@@ -22,7 +22,7 @@ import rosegraphics as rg
 
 def main():
     print(pythagorean_theorem(3, 4))
-    Turtles('red', 10)
+    Turtles('blue', 15)
     """
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
@@ -47,7 +47,7 @@ def pythagorean_theorem(a, b):
     return(math.sqrt(a**2 + b**2))
 
 ###############################################################################
-# TODO: 4a.  Define a function immediately below this _TODO_.
+# Done: 4a.  Define a function immediately below this _TODO_.
 #   It takes two arguments:
 #     -- a string that represents a color (e.g. 'red')
 #     -- a positive integer that represents the thickness of a Pen.
@@ -69,7 +69,7 @@ def pythagorean_theorem(a, b):
 #
 #   You may name the function and its parameters whatever you wish.
 #
-# TODO: 4b.  In main, CALL your function at least TWICE (with different values
+# Done: 4b.  In main, CALL your function at least TWICE (with different values
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
