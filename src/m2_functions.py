@@ -22,6 +22,7 @@ import rosegraphics as rg
 
 def main():
     print(pythagorean_theorem(3, 4))
+    Turtles('red', 10)
     """
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
@@ -72,6 +73,16 @@ def pythagorean_theorem(a, b):
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
+def Turtles(color, thickness):
+    window = rg.TurtleWindow()
+    turtle1 = rg.SimpleTurtle()
+    turtle1.pen = rg.Pen('green', thickness)
+    turtle2 = rg.SimpleTurtle()
+    turtle2.pen = rg.Pen(color, 5)
+    turtle1.forward(100)
+    turtle2.backward(200)
+    window.close_on_mouse_click()
+
 
 
 ###############################################################################
